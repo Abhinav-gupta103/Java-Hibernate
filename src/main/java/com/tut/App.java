@@ -16,7 +16,7 @@ public class App {
 		System.out.println("Hello");
 		SessionFactory factory = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
 
-		Student st = new Student(2, "Sanku", "Kanpur");
+		Student st = new Student(2, "Sanku", "Kanpur", null);
 		System.out.println(st);
 
 		Address add = new Address();
